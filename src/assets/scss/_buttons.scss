@@ -1,0 +1,28 @@
+.btn {
+  padding: .7em;
+  background: rgba( 255, 255, 255, 0.25 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  cursor: pointer;
+  color: #fff;
+  height: 3em;
+}
+
+.btn option {
+  color: #000;
+}
+
+.btn img {
+  transition: .5s;
+}
+
+.buttonIcon {
+  width: 1.5em;
+  fill: #fff;
+}
+
+.rotate img {
+  transform: rotate(180deg);
+}

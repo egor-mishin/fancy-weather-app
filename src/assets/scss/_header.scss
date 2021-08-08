@@ -1,0 +1,38 @@
+header {
+  display: flex;
+  justify-content: space-between;
+
+  @media (min-width: 320px) and (max-width: 800px) {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
+.buttonsBox{
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+
+  @media (min-width: 320px) and (max-width: 800px) {
+      width: 70%;
+    margin: 0 auto 2em auto;
+  }
+}
+
+.tempConsole {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+  margin-left: 1em;
+
+  button {
+    display: flex;
+    align-items: center;
+    sup {
+      font-size: .7em;
+      margin-left: .5em;
+      align-self: flex-start;
+    }
+  }
+}

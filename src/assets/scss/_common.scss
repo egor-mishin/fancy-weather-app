@@ -1,0 +1,53 @@
+@import "./vars";
+
+#weather-app {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  transition: .5s;
+  
+  @media (min-width: 320px) and (max-width: 800px) {
+    height: 100%;
+    overflow: scroll;
+    text-align: center;
+  }
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $main-font;
+  color: #fff;
+}
+
+.container {
+  width: 65vw;
+  background: rgba( 0, 0, 0, 0.5 );
+  padding: 2em;
+  border-radius: 2em;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: space-between;
+
+  @media (min-width: 320px) and (max-width: 800px) {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.leftCol {
+  width: 60%;
+
+  @media (min-width: 320px) and (max-width: 800px) {
+    width: 100%;
+  }
+}
+
+.rightCol {
+  width: 48%;
+
+  @media (min-width: 320px) and (max-width: 800px) {
+    width: 100%;
+  }
+}
