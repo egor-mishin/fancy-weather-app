@@ -6,12 +6,12 @@ export const API = {
   settings: {
     weatherAPI: {
       baseUrl: 'https://api.weatherapi.com/v1/',
-      apiKey: '39f3fbbef7b24efd938102015212206',
+      apiKey: '',
     },
 
     googleAPI: {
       baseUrl: 'https://maps.googleapis.com/maps/api/js',
-      apiKey: 'AIzaSyBACMBGj6X-HGuUs82b8iE8eX94GNFkQ1w',
+      apiKey: '',
       geocodeUrl: 'https://maps.googleapis.com/maps/api/geocode/json',
     },
   },
